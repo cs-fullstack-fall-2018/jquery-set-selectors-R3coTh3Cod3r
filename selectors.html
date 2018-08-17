@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ROCK ON</title>
     <link rel = "stylesheet"
         type = "text/css"
         href = "myStyle.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="page-content">
@@ -32,6 +36,15 @@
     </ul>
     <h3>Header Level 3</h3>
     <p>We will be <span class="highlight">targeting individual items</span> on this page. We'll target html elements directly, selecting them by ID or class.</p>
+
 </div>
+
+<script>
+$("h1").css("border","2px solid yellow");
+    $("#intro").css("border","2px solid yellow");
+    $("#page-content").css("border","2px solid yellow")
+    $("#gallery").css("border", "2px solid yellow")
+</script>
 </body>
 </html>
+
